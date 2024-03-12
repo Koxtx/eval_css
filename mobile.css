@@ -1,0 +1,101 @@
+body {
+  max-width: 500px;
+}
+/* header */
+.container {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.logo {
+  margin: 10px;
+  padding: 0;
+  font-size: 70px;
+}
+.nav {
+  font-size: 15px;
+  border-bottom: 1px solid gray;
+  width: 80%;
+}
+/* paris */
+.container2 {
+  max-width: 500px;
+  padding: 0;
+}
+.container2 > h1 {
+  width: 80%;
+  font-size: 40px;
+}
+.container2 > p {
+  font-size: 21px;
+  width: 80%;
+}
+/* destination */
+.titre {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.destination > img {
+  width: 400px;
+}
+.container3 {
+  height: auto;
+  max-width: 500px;
+  margin: 0;
+  padding: 0;
+}
+.destination {
+  margin-bottom: 20px;
+  width: 400px;
+}
+/* ekip */
+.container4 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  max-width: 500px;
+}
+.ekip > img {
+  width: 500px;
+  height: 250px;
+}
+.text {
+  width: 400px;
+  margin: 10px;
+}
+/* avis */
+.titre2 {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.container5 {
+  max-width: 500px;
+  height: auto;
+}
+.avis {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+}
+/* form */
+.container6 {
+  max-width: 500px;
+  height: auto;
+}
+.container6 > input {
+  width: 80%;
+}
+/* footer */
+.container7 {
+  height: 200px;
+  max-width: 500px;
+}
