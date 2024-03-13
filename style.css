@@ -6,6 +6,7 @@ body {
   background-color: #eeeeee;
   font-family: "montserra", sans-serif;
   width: 100%;
+  font-weight: 100;
 }
 body > h1,
 h2,
@@ -14,6 +15,7 @@ h4,
 h5,
 h6 {
   color: #333333;
+  font-weight: 50;
 }
 /* header */
 
@@ -22,19 +24,21 @@ h6 {
   color: white;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   height: 50px;
   justify-content: start;
   align-items: center;
+  padding: 5px;
 }
 .logo {
   margin: 10px;
-  margin-right: 70%;
+  margin-right: 65%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding-left: 15px;
-  font-family: "LongCang", sans-serif;
+  font-family: 'LongCang', sans-serif;
 }
 .logo > svg {
   color: rgb(241, 196, 15);
@@ -50,6 +54,7 @@ h6 {
 .nav {
   /* margin: 5px; */
   padding: 5px;
+
   width: 100px;
   height: 40px;
   font-size: 12.5px;
@@ -57,8 +62,8 @@ h6 {
   justify-content: center;
   align-items: center;
 }
-.nav:hover {
-  opacity: 0.5;
+.ville {
+  padding-left: 40px;
 }
 
 /* paris */
@@ -97,6 +102,7 @@ span {
   margin: 20px;
   padding-left: 15.2%;
   margin-top: 100px;
+  margin-bottom: 50px;
   font-size: 25px;
 }
 .destination > img {
@@ -118,6 +124,7 @@ span {
   border: 1px solid lightgray;
   height: 350px;
   width: 300px;
+  background-color: white;
 }
 .destination > h5,
 h6,
@@ -146,16 +153,17 @@ p {
 
 /* ekip */
 .container4 {
-  height: auto;
+  height: 600px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin-bottom: 75px;
   background-color: #333333;
   color: white;
 }
 .ekip > img {
   width: 700px;
-  height: 450px;
+  height: 600px;
 }
 .text {
   display: flex;
@@ -163,14 +171,18 @@ p {
   justify-content: center;
   align-items: center;
   width: 600px;
-  height: 100%;
+  height: 500px;
   text-align: justify;
-  margin-left: 30px;
+  margin-left: 10%;
+  
 }
 .text > h3 {
-  margin-right: 100px;
-  margin-bottom: 20px;
+  /* margin-right: 175px;
+  margin-bottom: 20px; */
   color: white;
+  font-size: 20px;
+  width: 600px;
+  padding: 25px;
 }
 .text > p {
   text-align: left;
@@ -193,22 +205,27 @@ p {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
 }
 .avis {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-align: justify;
   width: 70%;
   margin: 10px;
-  padding: 10px;
+  padding: 20px;
   background-color: white;
 }
 .avis > p {
   text-align: justify;
   font-size: 19px;
 }
+.avis>p{
+  padding: 30px;
+}
+
 .profil {
   display: flex;
   flex-direction: column;
@@ -238,7 +255,7 @@ p {
 /* form */
 .container6 {
   padding: 10px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -256,12 +273,13 @@ p {
   color: white;
 }
 .container6 > input {
-  width: 600px;
+  width: 500px;
   margin: 10px;
   height: 20px;
   border: none;
   border-bottom: 1px solid gray;
   background-color: #333333;
+  color: gray;
 }
 .container6 > button {
   margin-top: 30px;
@@ -282,4 +300,6 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  font-size: 10px;
 }
