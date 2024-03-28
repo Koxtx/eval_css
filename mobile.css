@@ -19,7 +19,12 @@ body {
 .logo {
   margin: 10px;
   padding: 0;
-  font-size: 70px;
+}
+.logo > svg {
+  width: 30px;
+}
+.logo > h4 {
+  font-size: 40px;
 }
 .nav {
   font-size: 15px;
