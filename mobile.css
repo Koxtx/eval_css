@@ -1,6 +1,11 @@
+html {
+  width: 500px;
+}
 body {
   max-width: 500px;
-  width:100% ;
+  width: 100%;
+  min-width: 50px;
+  flex-wrap: wrap;
 }
 /* header */
 .container {
@@ -9,7 +14,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 0px;
 }
 .logo {
   margin: 10px;
@@ -20,9 +25,15 @@ body {
   font-size: 15px;
   border-bottom: 1px solid gray;
   width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.ville {
+.nav > .ville {
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* paris */
 .container2 {
@@ -38,9 +49,10 @@ body {
 }
 /* destination */
 .titre {
+  display: flex;
   text-align: center;
   width: 350px;
-  
+
   padding: 0;
   margin: 0;
   margin-top: 50px;
@@ -50,9 +62,8 @@ body {
   width: 400px;
 }
 .container3 {
-  
   height: auto;
-  
+
   margin: 0;
   padding: 0;
   margin-top: 50px;
@@ -65,37 +76,41 @@ body {
 .container4 {
   display: flex;
   flex-direction: column-reverse;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-start;
   height: auto;
-  
+  width: 100%;
   margin-top: 50px;
 }
 .ekip > img {
   width: 500px;
-  height: 250px;
+  height: 400px;
 }
 .text {
-  width: 400px;
-  height: 700px;
-  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+
+  margin: 0;
 }
 .text > h3 {
   width: 400px;
 }
-.texte > p {
-  height: 900px;
+.text > p {
   width: 400px;
+
+  padding: 25px;
 }
 /* avis */
 .titre2 {
+  display: flex;
   text-align: center;
   padding: 0;
   margin: 10px;
   width: 100%;
 }
 .container5 {
-  
   height: auto;
 }
 .avis {
@@ -105,18 +120,19 @@ body {
   align-items: center;
   height: 550px;
 }
-.avis>p{
+.avis > p {
   padding: 0;
   height: 400px;
 }
 /* form */
 .container6 {
-  
   height: auto;
+  padding: 0;
+  padding-bottom: 150px;
 }
-.container6>h3{
+.container6 > h3 {
   font-size: 40px;
-  margin: 10px;
+  margin: 0px;
   margin-bottom: 50px;
   margin-top: 50px;
 }
@@ -126,5 +142,7 @@ body {
 /* footer */
 .container7 {
   height: 200px;
-  
+}
+.container7 > p {
+  font-size: 20px;
 }

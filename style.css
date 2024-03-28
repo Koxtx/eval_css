@@ -1,12 +1,16 @@
 * {
   margin: 0;
+  box-sizing: border-box;
+  padding: 0;
 }
 /* body */
 body {
   background-color: #eeeeee;
   font-family: "montserra", sans-serif;
   width: 100%;
+  min-width: 501px;
   font-weight: 100;
+  flex-wrap: wrap;
 }
 body > h1,
 h2,
@@ -31,14 +35,14 @@ h6 {
   padding: 5px;
 }
 .logo {
-  margin: 10px;
-  margin-right: 65%;
+  margin: 0px;
+  margin-right: 75%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding-left: 15px;
-  font-family: 'LongCang', sans-serif;
+  font-family: "LongCang", sans-serif;
 }
 .logo > svg {
   color: rgb(241, 196, 15);
@@ -51,10 +55,11 @@ h6 {
   font-size: 25px;
   color: white;
 }
-.nav {
+.nav a {
   /* margin: 5px; */
   padding: 5px;
-
+  color: white;
+  text-decoration: none;
   width: 100px;
   height: 40px;
   font-size: 12.5px;
@@ -62,20 +67,18 @@ h6 {
   justify-content: center;
   align-items: center;
 }
-.ville {
-  padding-left: 40px;
-}
 
 /* paris */
 
 .container2 {
   color: white;
-  padding: 150px;
+
+  padding: 200px;
   background: url(image/frame.jpg) center/cover;
   height: 500px;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+
   justify-content: center;
   align-items: center;
 }
@@ -161,8 +164,11 @@ p {
   background-color: #333333;
   color: white;
 }
+.ekip {
+  width: 50%;
+}
 .ekip > img {
-  width: 700px;
+  width: 100%;
   height: 600px;
 }
 .text {
@@ -174,7 +180,6 @@ p {
   height: 500px;
   text-align: justify;
   margin-left: 10%;
-  
 }
 .text > h3 {
   /* margin-right: 175px;
@@ -222,7 +227,7 @@ p {
   text-align: justify;
   font-size: 19px;
 }
-.avis>p{
+.avis > p {
   padding: 30px;
 }
 
