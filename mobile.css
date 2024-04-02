@@ -101,14 +101,16 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
   width: 500px;
-
+  height: auto;
   margin: 0;
+  margin-bottom: 20px;
 }
 .text > h3 {
   width: 80%;
 }
 .text > p {
-  width: 50%;
+  width: 70%;
+  height: auto;
   padding: 0px;
   padding-left: 10px;
 }
