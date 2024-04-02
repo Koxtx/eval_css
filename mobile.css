@@ -100,17 +100,17 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 100%;
+  width: 500px;
 
   margin: 0;
 }
 .text > h3 {
-  width: 400px;
+  width: 80%;
 }
 .text > p {
-  width: 400px;
-
-  padding: 25px;
+  width: 50%;
+  padding: 0px;
+  padding-left: 10px;
 }
 /* avis */
 .titre2 {
@@ -171,6 +171,9 @@ h3 {
   .ekip > img {
     max-width: 429px;
   }
+  .text {
+    width: 430px;
+  }
 }
 @media (max-width: 390px) {
   html {
@@ -182,5 +185,8 @@ h3 {
   }
   .ekip > img {
     max-width: 389px;
+  }
+  .text {
+    width: 390px;
   }
 }
