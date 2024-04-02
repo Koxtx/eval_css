@@ -168,3 +168,15 @@ body {
     max-width: 430px;
   }
 }
+@media (max-width: 390px) {
+  html {
+    max-width: 390px;
+  }
+  body {
+    width: 390px;
+    max-width: 390px;
+  }
+  .ekip > img {
+    max-width: 390px;
+  }
+}
