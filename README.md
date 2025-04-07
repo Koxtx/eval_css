@@ -1,1 +1,1 @@
-![elicium](./asset/capture_elicium.png)
+![capture_elicium](./asset/capture_elicium.png)
